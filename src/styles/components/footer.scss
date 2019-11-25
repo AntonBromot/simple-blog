@@ -1,0 +1,23 @@
+@import "../variables";
+
+.Footer {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  .footerWrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 75px;
+    background: #333333;
+    display: flex;
+    justify-content: space-between;
+    span {
+      color:$color-white;
+    }
+    a {
+      color:$color-white;
+    }
+}
+}

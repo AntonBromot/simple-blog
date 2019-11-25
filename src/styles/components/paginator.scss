@@ -1,0 +1,22 @@
+@import "../variables";
+
+.paginatorWrapper {
+  width: 30%;
+  margin: 0 auto 50px auto;
+
+  .paginatorItem {
+    display: inline-block;
+    padding: 5px 10px;
+    color:$color-white;
+    background: lightseagreen;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .paginatorItemSelected {
+    display: inline-block;
+    padding: 5px 10px;
+    color: lightseagreen;
+    background: white;
+    box-sizing: border-box;
+  }
+}

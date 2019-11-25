@@ -1,0 +1,24 @@
+@import "../variables";
+
+.Header {
+  width: 100%;
+  margin-bottom: 15px;
+  .headerWrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 45px 115px 10px 85px;
+    background: #A9A890;
+    .titleHead {
+      font-size: 42px;
+      font-family: 'Montserrat-Bold';
+      margin-right: 40px;
+      text-transform: uppercase;
+      color: $color-white;
+    }
+    a {
+      font-family: 'Montserrat-Bold';
+       text-decoration: none;
+       color: $color-white;
+    }
+  }
+}

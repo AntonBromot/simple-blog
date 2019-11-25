@@ -1,0 +1,40 @@
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../resources/fonts/montserrat/Montserrat-Medium.otf');
+}
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../resources/fonts/montserrat/Montserrat-Bold.otf');
+}
+@font-face {
+	font-family: 'Montserrat-Semibold';
+	src: url('../resources/fonts/montserrat/Montserrat-SemiBold.otf');
+}
+
+// animation
+$animation-delay: 0.5s ;
+
+// fonts
+$font-default:'Montserrat-Medium';
+$font-size-small: 14px ;
+$font-size-medium: 18px ;
+$font-size-big: 20px ;
+
+// border
+$border-radius: 4px ;
+
+// colors
+$color-black: black;
+$color-white: white;
+$color-browngray: #ACAC90;
+$color-darkgray: #303030 ;
+$color-red: red ;
+$color-lightgray: #EFEFE9;
+$color-lightblue: #56A1A2;
+
+
+
+$shadow: 0 .5em .5em rgba( $color-black, .1);

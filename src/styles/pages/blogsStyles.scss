@@ -1,0 +1,33 @@
+.blogsWrapper {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 40px;
+  .blogsContent {
+    margin-bottom: 50px;
+    width: 75%;
+    .notValid {
+      color: $color-red;
+      text-align: center;
+    }
+    .alreadySubmit {
+      text-align: center;
+      h1 {
+        color: lightgreen;
+      }
+      a {
+        font-family: 'Montserrat-Bold';
+      }
+    }
+    .editLink {
+      font-size: 20px;
+      font-family: 'Montserrat-Bold';
+      padding: 15px 0;
+      display: block;
+    }
+  }
+}
+
+
+
+

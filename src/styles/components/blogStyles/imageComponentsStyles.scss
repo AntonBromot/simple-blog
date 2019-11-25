@@ -1,0 +1,60 @@
+.imageWrapper {
+  position:relative;
+  width: 100%;
+  img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .dateWrapper {
+    width: 50px;
+    height: 160px;
+    padding: 0 5px;
+    background: $color-browngray;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    .currentDate {
+      text-align: center;
+      color: $color-white;
+      font-family: 'Montserrat-Bold';
+      font-size: 30px;
+      border-bottom: 2px solid $color-darkgray;
+    }
+    .rotate {
+      transform: rotate(90deg);
+      color: $color-white;
+      position: absolute;
+      width: 120px;
+      left: -35px;
+      top: 78px;
+      font-size: $font-size-small;
+      margin-top: 10px;
+      .otherDate {
+
+      }
+      .dayWeek {
+        font-family: 'Montserrat-Bold';
+      }
+    }
+  }
+  .dateWrapper.single {
+    left: -20px;
+  }
+}
+
+.imageFooter {
+  background: $color-lightgray;
+  display: flex;
+  padding: 4px 10px;
+  font-size: 13px;
+  justify-content: space-between;
+  color: $color-browngray;
+  .comment-eye {
+    span {
+      margin-left: 15px;
+    }
+  }
+
+}

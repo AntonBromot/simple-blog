@@ -1,0 +1,57 @@
+.sideContainer {
+    width: 16%;
+    margin-top: 18px;
+    margin-left: 35px;
+    
+  h1 {
+    font-size: 23px;
+    margin-bottom: 45px;
+    color: #5E8197;
+    a {
+      color: #5E8197;
+    }
+  }
+  .sideSupContainers {
+    margin: 0 0 20px 0;
+    .popularHead {
+      background: $color-browngray ;
+      color: $color-darkgray;
+      border-top: 1px solid $color-browngray;
+      padding: 5px 13px 5px 8px;
+      font-family: 'Montserrat-Medium';
+      font-size: 15px;
+
+    }
+    .popularLink {
+      padding: 5px 0;
+      font-size: 13px;
+      border-bottom: 1px solid $color-browngray;
+      font-family: 'Montserrat-Semibold';
+      a {
+        text-decoration: none;
+        color: $color-black;
+      }
+      p {
+        font-size: 12px;
+        margin: 8px 0px;  
+      }
+    }
+    .monthItem {
+      background: $color-lightgray;
+      padding: 5px;
+      margin: 3px 0;
+      .calendarName {
+        margin: 0 10px;
+      }
+      .arrow {
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      .linkMonthItem {
+        padding: 5px;
+        background: $color-white;
+        border-bottom: 1px solid $color-lightgray ;
+      }
+    }
+  }
+}

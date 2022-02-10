@@ -43,7 +43,7 @@
     "css-loader": "^0.28.10",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^1.1.9",
-    "node-sass": "^4.5.2",
+    "node-sass": "^7.0.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
     "url-loader": "^1.0.1",
